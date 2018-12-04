@@ -1,0 +1,60 @@
+html {
+  font-size: 100%
+}
+
+body {
+  counter-reset: my-counter;
+  margin: unset;
+  padding: unset;
+}
+
+* {
+  font-family: monospace;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: yellow;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.banner {
+  font-size: 2em;
+  margin: 1rem;
+  
+}
+
+.content {
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 90vw;
+  margin-left: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content a {
+  display: block;
+  counter-increment: my-counter;
+  content: counter(my-counter);
+  word-break: break-word;
+}
+
+.content a::before {
+  content: counter(my-counter)".";
+  color: #888;
+  margin: 0 .6rem;
+}
+
+.content a:hover {
+  font-style: italic;
+  color:#D73E48;
+}
+
+a:visited, a {
+  color: #03020a;
+}

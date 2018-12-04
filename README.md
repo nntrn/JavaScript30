@@ -34,3 +34,5 @@ course created by [@wesbos](https://github.com/wesbos/JavaScript30)
 * [29: Countdown Timer](excercises/29-Countdown-Timer)
 * [30: Whack A Mole](excercises/30-Whack-A-Mole)
 
+view HTML:
+[nntrn.github.io/JavaScript30/](https://nntrn.github.io/JavaScript30/)
