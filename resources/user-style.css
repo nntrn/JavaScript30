@@ -1,0 +1,40 @@
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.user-footer {
+  font-family: "Helvetica Neue", -apple-system, Helvetica, Roboto, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.index-finished {
+  background: rgba(0, 0, 0, .3);
+  color: white;
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+.index-finished:hover{
+  background: rgba(0, 0, 0, .85);
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  opacity: 0.25;
+  margin: 0 .5rem;
+}
+
+.icon:hover {
+  opacity: .8
+}

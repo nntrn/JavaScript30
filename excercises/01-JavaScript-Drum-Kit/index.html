@@ -9,9 +9,9 @@
   <!-- user added style  -->
   <style>
     body{min-height:100vh; overflow:hidden; }
-    .keys{flex-wrap:wrap; margin-top:20vh; min-height:unset; }
-    .key{width:7rem; height:7rem; padding:unset; }
-    .key:hover, .playing{background:rgba(0,0,0,.8); }  
+    .keys{flex-wrap:wrap; margin-top:20vh; min-height:unset; user-select: none;}
+    .key {width:7rem; height:7rem; padding:unset;}
+    .key:hover, .playing{background:rgba(0,0,0,.85); } 
   </style>
 
 </head>
@@ -68,9 +68,15 @@
 
   <script src="./script.js"></script>
 
-  <!-- index-FINISHED.html -->
-  <div class="footer" style="position:absolute; bottom:0; width:100%; padding:1rem; font-size:1.3em; text-align:center;">
-    <a href="./index-FINISHED.html" style="background: rgba(0,0,0,.3); color: white; text-decoration: none;">view finished page by @wesbos &rarr;</a>
+  <!-- add custom footer -->
+  <link rel="stylesheet" href="../../resources/user-style.css">
+
+  <div class="user-footer noselect">
+    <!-- index-FINISHED.html -->
+    <a href="./index-FINISHED.html" class="index-finished">view finished page by @wesbos &rarr;</a>
+    
+    <!-- github icon -->
+    <p><a href="https://github.com/nntrn/JavaScript30" title="nntrn/JavaScript30" target="_blank"><img src="../../resources/github.svg" class="icon" height="30" width="30"></a>
   </div>
 
 </body>
