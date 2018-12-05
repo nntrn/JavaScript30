@@ -2,7 +2,14 @@
 
 [view html](https://nntrn.github.io/JavaScript30/excercises/01-JavaScript-Drum-Kit/)
 
-## added CSS
+
+## modifications
+
+### html
+
+added `<meta name="viewport" content="width=device-width, initial-scale=1">` to the `<head>`
+
+### CSS:
 
 ```css
 body {
@@ -30,5 +37,14 @@ body {
 
 ## notes
 
+### transitionend Event
+Do something to `keys` element when a CSS transition has ended:
+
+```js
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+```
+[source](https://www.w3schools.com/jsref/event_transitionend.asp)
+
+----
 * [template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
